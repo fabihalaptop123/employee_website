@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #219150;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Employee Management System</h1>
+        <p>Employee Details Dashboard</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Company Information</h2>
+            <p><strong>Company Name:</strong> ABC Technologies</p>
+            <p><strong>Location:</strong> Chennai, Tamil Nadu</p>
+            <p><strong>Total Employees:</strong> 150</p>
+        </div>
+
+        <div class="card">
+            <h2>Employee Details</h2>
+
+            <table>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Salary</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td>EMP001</td>
+                    <td>Rahul Sharma</td>
+                    <td>IT</td>
+                    <td>rahul@abctech.com</td>
+                    <td>₹45,000</td>
+                    <td><button class="btn">View</button></td>
+                </tr>
+
+                <tr>
+                    <td>EMP002</td>
+                    <td>Priya Kumar</td>
+                    <td>HR</td>
+                    <td>priya@abctech.com</td>
+                    <td>₹40,000</td>
+                    <td><button class="btn">View</button></td>
+                </tr>
+
+                <tr>
+                    <td>EMP003</td>
+                    <td>Arun Raj</td>
+                    <td>Finance</td>
+                    <td>arun@abctech.com</td>
+                    <td>₹50,000</td>
+                    <td><button class="btn">View</button></td>
+                </tr>
+
+                <tr>
+                    <td>EMP004</td>
+                    <td>Meena Devi</td>
+                    <td>Marketing</td>
+                    <td>meena@abctech.com</td>
+                    <td>₹42,000</td>
+                    <td><button class="btn">View</button></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Employee Management System</p>
+    </footer>
+
+</body>
+</html>
